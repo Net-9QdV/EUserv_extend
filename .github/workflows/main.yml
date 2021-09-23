@@ -2,9 +2,9 @@ name: Run
 
 on:
   workflow_dispatch:
-  repository_dispatch:
+  repository_dispatch:   
 
-jobs:
+jobs:    
   build:
 
     if: github.actor == github.repository_owner
